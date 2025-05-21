@@ -19,8 +19,8 @@ print(" Hi,"+ user_name + ".")
 
 print("what year were you born?")
 year_born = input()
-print("very nice,"+ user_name + ".")
+print("very nice old fart," + str(year_born) + ".")
 
 print("what's your favorite color?")
 favorite_color = input ()
-print("that's a great color!" + ".")
+print("that's a great color. TURD!" + ".")
