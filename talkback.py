@@ -17,10 +17,20 @@ user_name = input()
 print(" Hi,"+ user_name + ".")
 
 
+# step 2, ask the user what year were they born
 print("what year were you born?")
 year_born = input()
-print("very nice old fart," + str(year_born) + ".")
+print("very nice old fart," + (year_born) + ".")
+
+print("how old will you be in ten years?")
+# input has to be current year not current age
+current_year = input()
+
+print( str(int(current_year) - int(year_born)+ 10))
+# step 3, ask the user what their favorite color is
 
 print("what's your favorite color?")
 favorite_color = input ()
 print("that's a great color. TURD!" + ".")
+
+
